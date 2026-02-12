@@ -11,11 +11,6 @@ import {
   generateRefreshToken,
   verifyRefreshToken,
 } from "../utils/token";
-import {
-  getCustomerById,
-
-  
-} from "../services/user.services";
 
 export const register = async (req: Request, res: Response) => {
   const { email, password, confirmPassword, role, username } = req.body;
