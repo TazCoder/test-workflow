@@ -145,3 +145,8 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+.env
+.env.*      
+!.env.example
+!.env.test.example
